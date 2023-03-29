@@ -1,0 +1,119 @@
+*{
+    background-color: #1C2833;
+}
+
+body{
+    margin: 0 auto;
+    width: 100%;
+}
+
+section{
+    position: relative;
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    top: 60px;
+    background-image: url("imagenes/tecnologia4.jpg");
+    background-size: cover;
+    opacity: 0.9;
+}
+
+.perfil{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+    border: 5px solid rgba(251, 252, 252, 0.5)
+}
+
+.nombre{
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 3px;
+    background: rgba(251, 252, 252, 0);
+}
+
+h4{
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 3px;
+    background: rgba(251, 252, 252, 0);
+}
+
+.enlaces{
+    padding-top: 30px;
+    width: 40%;
+    margin: 0 auto;
+    background: rgba(253, 254, 254, 0);
+}
+
+a{
+    padding-top: 5px;
+    height: 30px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 20px;
+    display: block;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
+
+.facebook{
+    background-color: #1B4F72;
+    border: 2px solid rgba(251, 252, 252, 0.9);
+}
+
+.facebook:hover {
+    background-color: #5DADE2;
+    border: 2px solid rgba(251, 252, 252, 0.4);
+    position: relative;
+    bottom: 1px;
+}
+
+.twitter{
+    background-color: #5499C7;
+    border: 2px solid rgba(251, 252, 252, 0.9);
+}
+
+.twitter:hover {
+    background-color: #154360;
+    border: 2px solid rgba(251, 252, 252, 0.5);
+    position: relative;
+    bottom: 1px;
+}
+
+.instagram{
+    background-color: #EC7063;
+    border: 2px solid rgba(251, 252, 252, 0.9);
+}
+
+.instagram:hover {
+    background-color: #E67E22;
+    border: 2px solid rgba(251, 252, 252, 0.5);
+    position: relative;
+    bottom: 1px;
+}
+
+.linkedin{
+    background-color: #0B5345;
+    border: 2px solid rgba(251, 252, 252, 0.9);
+}
+
+.linkedin:hover {
+    background-color: #73C6B6;
+    border: 2px solid rgba(251, 252, 252, 0.5);
+    position: relative;
+    bottom: 1px;
+}
